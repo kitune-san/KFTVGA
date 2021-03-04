@@ -24,214 +24,215 @@ module KFTVGA_Character_ROM (
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
+
             8'd001: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b01111111;
+                character[1] = 8'b01010101;
+                character[2] = 8'b01010101;
+                character[3] = 8'b01000001;
+                character[4] = 8'b01010101;
+                character[5] = 8'b01001001;
+                character[6] = 8'b01111111;
                 character[7] = 8'b00000000;
             end
             8'd002: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b01111111;
+                character[1] = 8'b01101011;
+                character[2] = 8'b01101011;
+                character[3] = 8'b01111111;
+                character[4] = 8'b01101011;
+                character[5] = 8'b01110111;
+                character[6] = 8'b01111111;
                 character[7] = 8'b00000000;
             end
             8'd003: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b01100011;
+                character[1] = 8'b01110111;
+                character[2] = 8'b01111111;
+                character[3] = 8'b00111110;
+                character[4] = 8'b00111110;
+                character[5] = 8'b00011100;
+                character[6] = 8'b00001000;
                 character[7] = 8'b00000000;
             end
             8'd004: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00011100;
+                character[2] = 8'b00111110;
+                character[3] = 8'b01111111;
+                character[4] = 8'b00111110;
+                character[5] = 8'b00011100;
+                character[6] = 8'b00001000;
                 character[7] = 8'b00000000;
             end
             8'd005: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00011100;
+                character[2] = 8'b00101010;
+                character[3] = 8'b01111111;
+                character[4] = 8'b00101010;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
                 character[7] = 8'b00000000;
             end
             8'd006: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00011100;
+                character[2] = 8'b00111110;
+                character[3] = 8'b01111111;
+                character[4] = 8'b01101011;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
                 character[7] = 8'b00000000;
             end
             8'd007: begin
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
+                character[2] = 8'b00001000;
+                character[3] = 8'b00011100;
+                character[4] = 8'b00001000;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
             8'd008: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b01111111;
+                character[1] = 8'b01100011;
+                character[2] = 8'b01000001;
+                character[3] = 8'b01000001;
+                character[4] = 8'b01000001;
+                character[5] = 8'b01100011;
+                character[6] = 8'b01111111;
                 character[7] = 8'b00000000;
             end
             8'd009: begin
                 character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
+                character[1] = 8'b00011100;
+                character[2] = 8'b00100010;
+                character[3] = 8'b00100010;
+                character[4] = 8'b00100010;
+                character[5] = 8'b00011100;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
             8'd010: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b01111111;
+                character[1] = 8'b01100011;
+                character[2] = 8'b01011101;
+                character[3] = 8'b01011101;
+                character[4] = 8'b01011101;
+                character[5] = 8'b01100011;
+                character[6] = 8'b01111111;
                 character[7] = 8'b00000000;
             end
             8'd011: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00011111;
+                character[1] = 8'b00000011;
+                character[2] = 8'b00000101;
+                character[3] = 8'b00111000;
+                character[4] = 8'b01001000;
+                character[5] = 8'b01001000;
+                character[6] = 8'b00110000;
                 character[7] = 8'b00000000;
             end
             8'd012: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00011100;
+                character[1] = 8'b00100010;
+                character[2] = 8'b00100010;
+                character[3] = 8'b00011100;
+                character[4] = 8'b00001000;
+                character[5] = 8'b00111110;
+                character[6] = 8'b00001000;
                 character[7] = 8'b00000000;
             end
             8'd013: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00001110;
+                character[1] = 8'b00001011;
+                character[2] = 8'b00001001;
+                character[3] = 8'b00001000;
+                character[4] = 8'b00001000;
+                character[5] = 8'b01111000;
+                character[6] = 8'b01111000;
                 character[7] = 8'b00000000;
             end
             8'd014: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00001111;
+                character[1] = 8'b00011101;
+                character[2] = 8'b00010001;
+                character[3] = 8'b00010001;
+                character[4] = 8'b00010111;
+                character[5] = 8'b01110111;
+                character[6] = 8'b011100000;
                 character[7] = 8'b00000000;
             end
             8'd015: begin
                 character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
+                character[1] = 8'b00101010;
+                character[2] = 8'b00010100;
+                character[3] = 8'b01100011;
+                character[4] = 8'b00010100;
+                character[5] = 8'b00101010;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
             8'd016: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b01000000;
+                character[1] = 8'b01110000;
+                character[2] = 8'b01111100;
+                character[3] = 8'b01111111;
+                character[4] = 8'b01111100;
+                character[5] = 8'b01110000;
+                character[6] = 8'b01000000;
                 character[7] = 8'b00000000;
             end
             8'd017: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00000001;
+                character[1] = 8'b00000111;
+                character[2] = 8'b00011111;
+                character[3] = 8'b01111111;
+                character[4] = 8'b00011111;
+                character[5] = 8'b00000111;
+                character[6] = 8'b00000001;
                 character[7] = 8'b00000000;
             end
             8'd018: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00011100;
+                character[2] = 8'b00101010;
+                character[3] = 8'b00001000;
+                character[4] = 8'b00101010;
+                character[5] = 8'b00011100;
+                character[6] = 8'b00001000;
                 character[7] = 8'b00000000;
             end
             8'd019: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
+                character[0] = 8'b01100110;
+                character[1] = 8'b01100110;
+                character[2] = 8'b01100110;
+                character[3] = 8'b01100110;
+                character[4] = 8'b01100110;
                 character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[6] = 8'b01100110;
                 character[7] = 8'b00000000;
             end
             8'd020: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00111111;
+                character[1] = 8'b01111010;
+                character[2] = 8'b00111010;
+                character[3] = 8'b00001010;
+                character[4] = 8'b00001010;
+                character[5] = 8'b00001010;
+                character[6] = 8'b00001010;
                 character[7] = 8'b00000000;
             end
             8'd021: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00011110;
+                character[1] = 8'b00100000;
+                character[2] = 8'b00011100;
+                character[3] = 8'b00100010;
+                character[4] = 8'b00011100;
+                character[5] = 8'b00000010;
+                character[6] = 8'b00111100;
                 character[7] = 8'b00000000;
             end
             8'd022: begin
@@ -239,58 +240,58 @@ module KFTVGA_Character_ROM (
                 character[1] = 8'b00000000;
                 character[2] = 8'b00000000;
                 character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[4] = 8'b01111111;
+                character[5] = 8'b01111111;
+                character[6] = 8'b01111111;
                 character[7] = 8'b00000000;
             end
             8'd023: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00011100;
+                character[2] = 8'b00101010;
+                character[3] = 8'b00001000;
+                character[4] = 8'b00101010;
+                character[5] = 8'b00011100;
+                character[6] = 8'b00111110;
                 character[7] = 8'b00000000;
             end
             8'd024: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00011100;
+                character[2] = 8'b00101010;
+                character[3] = 8'b00001000;
+                character[4] = 8'b00001000;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
                 character[7] = 8'b00000000;
             end
             8'd025: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00001000;
+                character[3] = 8'b00001000;
+                character[4] = 8'b00101010;
+                character[5] = 8'b00011100;
+                character[6] = 8'b00001000;
                 character[7] = 8'b00000000;
             end
             8'd026: begin
                 character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
+                character[1] = 8'b00000100;
+                character[2] = 8'b00000010;
+                character[3] = 8'b01111111;
+                character[4] = 8'b00000010;
+                character[5] = 8'b00000100;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
             8'd027: begin
                 character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
+                character[1] = 8'b00010000;
+                character[2] = 8'b00100000;
+                character[3] = 8'b01111111;
+                character[4] = 8'b00100000;
+                character[5] = 8'b00010000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
@@ -299,18 +300,18 @@ module KFTVGA_Character_ROM (
                 character[1] = 8'b00000000;
                 character[2] = 8'b00000000;
                 character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[4] = 8'b01000000;
+                character[5] = 8'b01000000;
+                character[6] = 8'b01111111;
                 character[7] = 8'b00000000;
             end
             8'd029: begin
                 character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
+                character[1] = 8'b00010100;
+                character[2] = 8'b00100010;
+                character[3] = 8'b01111111;
+                character[4] = 8'b00100010;
+                character[5] = 8'b00010100;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
@@ -325,13 +326,13 @@ module KFTVGA_Character_ROM (
                 character[7] = 8'b00000000;
             end
             8'd031: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b01111111;
+                character[1] = 8'b01111111;
+                character[2] = 8'b00111110;
+                character[3] = 8'b00111110;
+                character[4] = 8'b00011100;
+                character[5] = 8'b00011100;
+                character[6] = 8'b00001000;
                 character[7] = 8'b00000000;
             end
             8'd032: begin
@@ -355,8 +356,8 @@ module KFTVGA_Character_ROM (
                 character[7] = 8'b00000000;
             end
             8'd034: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
+                character[0] = 8'b01100110;
+                character[1] = 8'b01100110;
                 character[2] = 8'b00000000;
                 character[3] = 8'b00000000;
                 character[4] = 8'b00000000;
@@ -365,49 +366,49 @@ module KFTVGA_Character_ROM (
                 character[7] = 8'b00000000;
             end
             8'd035: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00010010;
+                character[1] = 8'b00010010;
+                character[2] = 8'b01111111;
+                character[3] = 8'b00010010;
+                character[4] = 8'b01111111;
+                character[5] = 8'b00100100;
+                character[6] = 8'b00100100;
                 character[7] = 8'b00000000;
             end
             8'd036: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00010100;
+                character[1] = 8'b00111111;
+                character[2] = 8'b01000000;
+                character[3] = 8'b00111110;
+                character[4] = 8'b00000001;
+                character[5] = 8'b01111110;
+                character[6] = 8'b00010100;
                 character[7] = 8'b00000000;
             end
             8'd037: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00100001;
+                character[1] = 8'b01010010;
+                character[2] = 8'b00100100;
+                character[3] = 8'b00001000;
+                character[4] = 8'b00010010;
+                character[5] = 8'b00100101;
+                character[6] = 8'b01000010;
                 character[7] = 8'b00000000;
             end
             8'd038: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00111000;
+                character[1] = 8'b01000100;
+                character[2] = 8'b01001000;
+                character[3] = 8'b00110000;
+                character[4] = 8'b01101001;
+                character[5] = 8'b01000110;
+                character[6] = 8'b00111101;
                 character[7] = 8'b00000000;
             end
             8'd039: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
+                character[0] = 8'b00011000;
+                character[1] = 8'b00011000;
+                character[2] = 8'b00011000;
                 character[3] = 8'b00000000;
                 character[4] = 8'b00000000;
                 character[5] = 8'b00000000;
@@ -415,42 +416,42 @@ module KFTVGA_Character_ROM (
                 character[7] = 8'b00000000;
             end
             8'd040: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00000100;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00010000;
+                character[3] = 8'b00010000;
+                character[4] = 8'b00010000;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00000100;
                 character[7] = 8'b00000000;
             end
             8'd041: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00010000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00000100;
+                character[3] = 8'b00000100;
+                character[4] = 8'b00000100;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00010000;
                 character[7] = 8'b00000000;
             end
             8'd042: begin
                 character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00101010;
+                character[3] = 8'b00011100;
+                character[4] = 8'b00010100;
+                character[5] = 8'b00100010;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
             8'd043: begin
                 character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00001000;
+                character[3] = 8'b00111110;
+                character[4] = 8'b00001000;
+                character[5] = 8'b00001000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
@@ -460,14 +461,14 @@ module KFTVGA_Character_ROM (
                 character[2] = 8'b00000000;
                 character[3] = 8'b00000000;
                 character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[5] = 8'b00011000;
+                character[6] = 8'b00011000;
+                character[7] = 8'b00100000;
             end
             8'd045: begin
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
-                character[2] = 8'b00111100;
+                character[2] = 8'b00111110;
                 character[3] = 8'b00000000;
                 character[4] = 8'b00000000;
                 character[5] = 8'b00000000;
@@ -975,9 +976,9 @@ module KFTVGA_Character_ROM (
                 character[7] = 8'b00000000;
             end
             8'd096: begin
-                character[0] = 8'b01110000;
+                character[0] = 8'b00110000;
                 character[1] = 8'b00001100;
-                character[2] = 8'b00000011;
+                character[2] = 8'b00000000;
                 character[3] = 8'b00000000;
                 character[4] = 8'b00000000;
                 character[5] = 8'b00000000;
@@ -1245,53 +1246,53 @@ module KFTVGA_Character_ROM (
                 character[7] = 8'b00000000;
             end
             8'd123: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00001110;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00001000;
+                character[3] = 8'b00110000;
+                character[4] = 8'b00001000;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001110;
                 character[7] = 8'b00000000;
             end
             8'd124: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00001000;
+                character[3] = 8'b00001000;
+                character[4] = 8'b00001000;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
                 character[7] = 8'b00000000;
             end
             8'd125: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00111000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00001000;
+                character[3] = 8'b00000110;
+                character[4] = 8'b00001000;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00111000;
                 character[7] = 8'b00000000;
             end
             8'd126: begin
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
+                character[2] = 8'b00110000;
+                character[3] = 8'b01001001;
+                character[4] = 8'b00000110;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
             8'd127: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00010100;
+                character[2] = 8'b00100010;
+                character[3] = 8'b01000001;
+                character[4] = 8'b01000001;
+                character[5] = 8'b01000001;
+                character[6] = 8'b01111111;
                 character[7] = 8'b00000000;
             end
             8'd128: begin
@@ -1565,33 +1566,33 @@ module KFTVGA_Character_ROM (
                 character[7] = 8'b00000000;
             end
             8'd155: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00111110;
+                character[2] = 8'b01000001;
+                character[3] = 8'b01000000;
+                character[4] = 8'b01000001;
+                character[5] = 8'b00111110;
+                character[6] = 8'b00001000;
                 character[7] = 8'b00000000;
             end
             8'd156: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b00011100;
+                character[1] = 8'b00100010;
+                character[2] = 8'b01111000;
+                character[3] = 8'b00100000;
+                character[4] = 8'b00100000;
+                character[5] = 8'b00100001;
+                character[6] = 8'b01111110;
                 character[7] = 8'b00000000;
             end
             8'd157: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
+                character[0] = 8'b01000001;
+                character[1] = 8'b00100010;
+                character[2] = 8'b00010100;
+                character[3] = 8'b01111111;
+                character[4] = 8'b00001000;
+                character[5] = 8'b01111111;
+                character[6] = 8'b00001000;
                 character[7] = 8'b00000000;
             end
             8'd158: begin
@@ -1775,151 +1776,151 @@ module KFTVGA_Character_ROM (
                 character[7] = 8'b00000000;
             end
             8'd176: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b00010001;
+                character[1] = 8'b01000100;
+                character[2] = 8'b00010001;
+                character[3] = 8'b01000100;
+                character[4] = 8'b00010001;
+                character[5] = 8'b01000100;
+                character[6] = 8'b00010001;
+                character[7] = 8'b01000100;
             end
             8'd177: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b01010101;
+                character[1] = 8'b10101010;
+                character[2] = 8'b01010101;
+                character[3] = 8'b10101010;
+                character[4] = 8'b01010101;
+                character[5] = 8'b10101010;
+                character[6] = 8'b01010101;
+                character[7] = 8'b10101010;
             end
             8'd178: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b01110111;
+                character[1] = 8'b11101110;
+                character[2] = 8'b11011101;
+                character[3] = 8'b10111011;
+                character[4] = 8'b01110111;
+                character[5] = 8'b11101110;
+                character[6] = 8'b11011101;
+                character[7] = 8'b10111011;
             end
             8'd179: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00001000;
+                character[3] = 8'b00001000;
+                character[4] = 8'b00001000;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
+                character[7] = 8'b00001000;
             end
             8'd180: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00001000;
+                character[3] = 8'b00001000;
+                character[4] = 8'b11111000;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
+                character[7] = 8'b00001000;
             end
             8'd181: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b11111000;
+                character[3] = 8'b00001000;
+                character[4] = 8'b11111000;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
+                character[7] = 8'b00001000;
             end
             8'd182: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b00010100;
+                character[1] = 8'b00010100;
+                character[2] = 8'b00010100;
+                character[3] = 8'b00010100;
+                character[4] = 8'b11110100;
+                character[5] = 8'b00010100;
+                character[6] = 8'b00010100;
+                character[7] = 8'b00010100;
             end
             8'd183: begin
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
                 character[2] = 8'b00000000;
                 character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[4] = 8'b11111100;
+                character[5] = 8'b00010100;
+                character[6] = 8'b00010100;
+                character[7] = 8'b00010100;
             end
             8'd184: begin
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[2] = 8'b11111000;
+                character[3] = 8'b00001000;
+                character[4] = 8'b11111000;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
+                character[7] = 8'b00001000;
             end
             8'd185: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b00010100;
+                character[1] = 8'b00010100;
+                character[2] = 8'b11110100;
+                character[3] = 8'b00000100;
+                character[4] = 8'b11110100;
+                character[5] = 8'b00010100;
+                character[6] = 8'b00010100;
+                character[7] = 8'b00010100;
             end
             8'd186: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b00010100;
+                character[1] = 8'b00010100;
+                character[2] = 8'b00010100;
+                character[3] = 8'b00010100;
+                character[4] = 8'b00010100;
+                character[5] = 8'b00010100;
+                character[6] = 8'b00010100;
+                character[7] = 8'b00010100;
             end
             8'd187: begin
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[2] = 8'b11111100;
+                character[3] = 8'b00000100;
+                character[4] = 8'b11110100;
+                character[5] = 8'b00010100;
+                character[6] = 8'b00010100;
+                character[7] = 8'b00010100;
             end
             8'd188: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
+                character[0] = 8'b00010100;
+                character[1] = 8'b00010100;
+                character[2] = 8'b11110100;
+                character[3] = 8'b00000100;
+                character[4] = 8'b11111100;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
             8'd189: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
+                character[0] = 8'b00010100;
+                character[1] = 8'b00010100;
+                character[2] = 8'b00010100;
+                character[3] = 8'b00010100;
+                character[4] = 8'b11111100;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
             8'd190: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b11111000;
+                character[3] = 8'b00001000;
+                character[4] = 8'b11111000;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
@@ -1929,27 +1930,27 @@ module KFTVGA_Character_ROM (
                 character[1] = 8'b00000000;
                 character[2] = 8'b00000000;
                 character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[4] = 8'b00111000;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
+                character[7] = 8'b00001000;
             end
             8'd192: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00001000;
+                character[3] = 8'b00001000;
+                character[4] = 8'b00001111;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
             8'd193: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00001000;
+                character[3] = 8'b00001000;
+                character[4] = 8'b11111111;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
@@ -1959,67 +1960,67 @@ module KFTVGA_Character_ROM (
                 character[1] = 8'b00000000;
                 character[2] = 8'b00000000;
                 character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[4] = 8'b11111111;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
+                character[7] = 8'b00001000;
             end
             8'd195: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00001000;
+                character[3] = 8'b00001000;
+                character[4] = 8'b00001111;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
+                character[7] = 8'b00001000;
             end
             8'd196: begin
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
                 character[2] = 8'b00000000;
                 character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
+                character[4] = 8'b11111111;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
             8'd197: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00001000;
+                character[3] = 8'b00001000;
+                character[4] = 8'b11111111;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
+                character[7] = 8'b00001000;
             end
             8'd198: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00001111;
+                character[3] = 8'b00001000;
+                character[4] = 8'b00001111;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
+                character[7] = 8'b00001000;
             end
             8'd199: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b00010100;
+                character[1] = 8'b00010100;
+                character[2] = 8'b00010100;
+                character[3] = 8'b00010111;
+                character[4] = 8'b00010100;
+                character[5] = 8'b00010100;
+                character[6] = 8'b00010100;
+                character[7] = 8'b00010100;
             end
             8'd200: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
+                character[0] = 8'b00010100;
+                character[1] = 8'b00010100;
+                character[2] = 8'b00010111;
+                character[3] = 8'b00010000;
+                character[4] = 8'b00011111;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
@@ -2027,19 +2028,19 @@ module KFTVGA_Character_ROM (
             8'd201: begin
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[2] = 8'b00011111;
+                character[3] = 8'b00010000;
+                character[4] = 8'b00010111;
+                character[5] = 8'b00010100;
+                character[6] = 8'b00010100;
+                character[7] = 8'b00010100;
             end
             8'd202: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
+                character[0] = 8'b00010100;
+                character[1] = 8'b00010100;
+                character[2] = 8'b11110111;
                 character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
+                character[4] = 8'b11111111;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
@@ -2047,58 +2048,58 @@ module KFTVGA_Character_ROM (
             8'd203: begin
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
+                character[2] = 8'b11111111;
                 character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[4] = 8'b11110111;
+                character[5] = 8'b00010100;
+                character[6] = 8'b00010100;
+                character[7] = 8'b00010100;
             end
             8'd204: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b00010100;
+                character[1] = 8'b00010100;
+                character[2] = 8'b00010111;
+                character[3] = 8'b00010000;
+                character[4] = 8'b00010111;
+                character[5] = 8'b00010100;
+                character[6] = 8'b00010100;
+                character[7] = 8'b00010100;
             end
             8'd205: begin
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
+                character[2] = 8'b11111111;
                 character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
+                character[4] = 8'b11111111;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
             8'd206: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
+                character[0] = 8'b00010100;
+                character[1] = 8'b00010100;
+                character[2] = 8'b11110111;
                 character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[4] = 8'b11110111;
+                character[5] = 8'b00010100;
+                character[6] = 8'b00010100;
+                character[7] = 8'b00010100;
             end
             8'd207: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b11111111;
                 character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
+                character[4] = 8'b11111111;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
             8'd208: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
+                character[0] = 8'b00010100;
+                character[1] = 8'b00010100;
+                character[2] = 8'b00010100;
+                character[3] = 8'b11111111;
                 character[4] = 8'b00000000;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
@@ -2107,39 +2108,39 @@ module KFTVGA_Character_ROM (
             8'd209: begin
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
+                character[2] = 8'b11111111;
                 character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[4] = 8'b11111111;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
+                character[7] = 8'b00001000;
             end
             8'd210: begin
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
                 character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[3] = 8'b11111111;
+                character[4] = 8'b00010100;
+                character[5] = 8'b00010100;
+                character[6] = 8'b00010100;
+                character[7] = 8'b00010100;
             end
             8'd211: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
+                character[0] = 8'b00010100;
+                character[1] = 8'b00010100;
+                character[2] = 8'b00010100;
+                character[3] = 8'b00011111;
                 character[4] = 8'b00000000;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
             8'd212: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00001111;
+                character[3] = 8'b00001000;
+                character[4] = 8'b00001111;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
@@ -2147,38 +2148,38 @@ module KFTVGA_Character_ROM (
             8'd213: begin
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[2] = 8'b00001111;
+                character[3] = 8'b00001000;
+                character[4] = 8'b00001111;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
+                character[7] = 8'b00001000;
             end
             8'd214: begin
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[2] = 8'b00011111;
+                character[3] = 8'b00010100;
+                character[4] = 8'b00010100;
+                character[5] = 8'b00010100;
+                character[6] = 8'b00010100;
+                character[7] = 8'b00010100;
             end
             8'd215: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b00010100;
+                character[1] = 8'b00010100;
+                character[2] = 8'b00010100;
+                character[3] = 8'b11111111;
+                character[4] = 8'b00010100;
+                character[5] = 8'b00010100;
+                character[6] = 8'b00010100;
+                character[7] = 8'b00010100;
             end
             8'd216: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
+                character[0] = 8'b00001000;
+                character[1] = 8'b00001000;
+                character[2] = 8'b00001000;
+                character[3] = 8'b11111000;
                 character[4] = 8'b00000000;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
@@ -2188,57 +2189,57 @@ module KFTVGA_Character_ROM (
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
                 character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[3] = 8'b00001111;
+                character[4] = 8'b00001000;
+                character[5] = 8'b00001000;
+                character[6] = 8'b00001000;
+                character[7] = 8'b00001000;
             end
             8'd218: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b11111111;
+                character[1] = 8'b11111111;
+                character[2] = 8'b11111111;
+                character[3] = 8'b11111111;
+                character[4] = 8'b11111111;
+                character[5] = 8'b11111111;
+                character[6] = 8'b11111111;
+                character[7] = 8'b11111111;
             end
             8'd219: begin
                 character[0] = 8'b00000000;
                 character[1] = 8'b00000000;
                 character[2] = 8'b00000000;
                 character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[4] = 8'b11111111;
+                character[5] = 8'b11111111;
+                character[6] = 8'b11111111;
+                character[7] = 8'b11111111;
             end
             8'd220: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b11110000;
+                character[1] = 8'b11110000;
+                character[2] = 8'b11110000;
+                character[3] = 8'b11110000;
+                character[4] = 8'b11110000;
+                character[5] = 8'b11110000;
+                character[6] = 8'b11110000;
+                character[7] = 8'b11110000;
             end
             8'd221: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
-                character[6] = 8'b00000000;
-                character[7] = 8'b00000000;
+                character[0] = 8'b00001111;
+                character[1] = 8'b00001111;
+                character[2] = 8'b00001111;
+                character[3] = 8'b00001111;
+                character[4] = 8'b00001111;
+                character[5] = 8'b00001111;
+                character[6] = 8'b00001111;
+                character[7] = 8'b00001111;
             end
             8'd222: begin
-                character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
+                character[0] = 8'b11111111;
+                character[1] = 8'b11111111;
+                character[2] = 8'b11111111;
+                character[3] = 8'b11111111;
                 character[4] = 8'b00000000;
                 character[5] = 8'b00000000;
                 character[6] = 8'b00000000;
@@ -2556,11 +2557,11 @@ module KFTVGA_Character_ROM (
             end
             8'd254: begin
                 character[0] = 8'b00000000;
-                character[1] = 8'b00000000;
-                character[2] = 8'b00000000;
-                character[3] = 8'b00000000;
-                character[4] = 8'b00000000;
-                character[5] = 8'b00000000;
+                character[1] = 8'b00111110;
+                character[2] = 8'b00111110;
+                character[3] = 8'b00111110;
+                character[4] = 8'b00111110;
+                character[5] = 8'b00111110;
                 character[6] = 8'b00000000;
                 character[7] = 8'b00000000;
             end
